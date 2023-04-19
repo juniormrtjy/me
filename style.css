@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: 'Raleway', sans-serif;
+}
+
+main {
+  padding: 1rem;
+}
+
+button {
+  padding: 0.5rem 1rem;
+  border-radius: 0.3rem;
+  border: none;
+  background: #3742fa;
+  color: white;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+button:hover {
+  background: #0511f7;
+}
